@@ -21,13 +21,13 @@
 
 ## CloudWatch課題
 
-- Nginx + Unicorn稼働時
-  - Cloud Watch alarm
+- Nginx + Unicorn稼働時  
+  - Cloud Watch alarm  
     ![アラームOK](./img/cloud_watch_alarm_ok.png)
   - アラームメール  
     ![アラームOKメール](./img/sns_ok_mail.png)
 
-- Nginx停止時
+- Unicorn停止時
   - Cloud Watch alarm
     ![アラームNG](./img/cloud_watch_alarm_ng.png)
   - アラームメール  
